@@ -2,6 +2,19 @@
 
 DroneAI is an experiment in reinforcement learning, training an AI agent to pilot a 2D drone to reach moving targets in a simulated environment.
 
+![DroneAI 2.0 in action](demo.png)
+
+## Quick Start
+
+A pretrained model is included so you can see the drone fly immediately:
+
+```bash
+pip install -r requirements.txt
+python3 Load.py
+```
+
+This loads the pretrained model from `Training/ModelEx.zip` and opens a pygame window where the drone chases your mouse cursor. Close the window to exit.
+
 ## Overview
 
 A simulated 2D drone must learn to navigate to target locations using only its two propellers. The agent controls each propeller's **thrust power** (0–100%) and **tilt angle** (limited to ±60°, with a constrained turn rate), making flight a non-trivial control problem — the agent must learn to balance, steer, and stabilize entirely through trial and error.
