@@ -1,6 +1,6 @@
 # DroneAI
 
-DroneAI is an experiment in reinforcement learning, training an AI agent to pilot a 2D drone to reach moving targets in a simulated environment.
+### DroneAI is an experimental project using reinforcement learning, training an AI agent to pilot a 2D drone to reach moving targets in a simulated environment.
 
 <p align="center">
   <img src="example.gif" alt="DroneAI 2.0 in action" width="600">
